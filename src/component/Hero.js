@@ -3,7 +3,7 @@ import Grid from "../images/photo-grid.png";
 
 export default function Hero() {
   return (
-    <section>
+    <section className="hero">
       <img src={Grid} className="hero--photo" />
       <h1 className="hero--header"> Online Experience</h1>
       <p className="hero--text">
