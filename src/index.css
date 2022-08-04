@@ -60,6 +60,11 @@ section {
   flex-direction: column;
 }
 
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .card--image {
   width: 100%;
   border-radius: 9px;
@@ -72,4 +77,8 @@ section {
 
 .card--star {
   height: 14px;
+}
+
+.card--price {
+  margin-top: auto;
 }
