@@ -22,10 +22,6 @@ nav {
   color: #918e9b;
 }
 
-.bold {
-  font-weight: bold;
-}
-
 .nav--logo {
   max-width: 100px;
 }
@@ -52,6 +48,13 @@ section {
   margin-top: 0;
 }
 
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
 .card {
   width: 175px;
   font-size: 12px;
@@ -60,14 +63,15 @@ section {
   flex-direction: column;
 }
 
-.card--title {
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .card--image {
   width: 100%;
   border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card--stats {
